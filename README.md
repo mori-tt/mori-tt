@@ -60,11 +60,12 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 
 <!-- ピン留めリポジトリと自動同期されます (sync-content.yml)。ピン留めを変えるとこのリストも変わります -->
 <!-- PINS:START -->
-- **[reel-maker](https://github.com/mori-tt/reel-maker)** — 写真からショート動画を生成するブラウザ完結アプリ。Instagram Reels / TikTok / YouTube Shorts 対応、AI キャプション提案付き
-- **[accommodation-app](https://github.com/mori-tt/accommodation-app)** — Next.js 製の宿泊予約アプリ
-- **[mindmap-app](https://github.com/mori-tt/mindmap-app)** — React + Vite のマインドマップアプリ
-- **[pokemon-omikuji2](https://github.com/mori-tt/pokemon-omikuji2)** — Next.js 製ポケモンおみくじアプリ
-- **[jamstack-blog](https://github.com/mori-tt/jamstack-blog)** — Next.js 製 Jamstack ブログ
+- **[accommodation-app](https://github.com/mori-tt/accommodation-app)**
+- **[notion_clone](https://github.com/mori-tt/notion_clone)**
+- **[pokemon-omikuji2](https://github.com/mori-tt/pokemon-omikuji2)**
+- **[react_discord](https://github.com/mori-tt/react_discord)**
+- **[Tourism_recommendation_bot_3](https://github.com/mori-tt/Tourism_recommendation_bot_3)**
+- **[trello-clone](https://github.com/mori-tt/trello-clone)**
 <!-- PINS:END -->
 
 ### Articles
