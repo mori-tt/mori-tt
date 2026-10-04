@@ -1,0 +1,34 @@
+name: Metrics
+
+on:
+  schedule: [{ cron: "0 0 * * *" }] # 毎日 (UTC)
+  workflow_dispatch:
+  push: { branches: [main] }
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    env:
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+    steps:
+      # METRICS_TOKEN 未設定の場合はスキップ (失敗させないためのガード)
+      - name: Skip when METRICS_TOKEN is not set
+        if: ${{ env.METRICS_TOKEN == '' }}
+        run: echo "::warning::METRICS_TOKEN secret is not set. Skipping metrics generation."
+
+      - uses: lowlighter/metrics@latest
+        if: ${{ env.METRICS_TOKEN != '' }}
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: mori-tt
+          template: classic
+          base: header, activity, community, repositories, metadata
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_activity: yes
+          plugin_activity_limit: 5
