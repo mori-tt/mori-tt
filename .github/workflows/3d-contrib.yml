@@ -18,6 +18,29 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Remove radar chart (Issue/PR counts) from SVGs
+        run: |
+          python3 - << 'PY'
+          import re, glob
+          for f in glob.glob('profile-3d-contrib/*.svg'):
+              s = open(f).read()
+              i = s.find('class="axis"')
+              if i < 0:
+                  continue
+              j = s.rfind('<g transform="translate', 0, i)
+              depth, end = 0, -1
+              for m in re.finditer(r'</?g\b[^>]*>', s[j:]):
+                  if m.group(0).startswith('</'):
+                      depth -= 1
+                      if depth == 0:
+                          end = j + m.end()
+                          break
+                  else:
+                      depth += 1
+              if end > 0:
+                  open(f, 'w').write(s[:j] + s[end:])
+          PY
+
       - name: Commit & Push
         run: |
           git config user.name github-actions[bot]
