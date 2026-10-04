@@ -28,7 +28,6 @@ Web Engineer & Data Scientist (self-styled). Recently focused on AI × Python ×
 
 <div align="center">
 <img src="https://streak-stats.demolab.com/?user=mori-tt&theme=default&hide_border=true" />
-<img src="https://github-profile-trophy.vercel.app/?username=mori-tt&theme=flat&no-frame=true&no-bg=true&column=6" />
 </div>
 
 <!-- Auto-generated once the METRICS_TOKEN secret is set -->
