@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:3b82f6&height=170&section=header&text=morimoli&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20Engineer%20%26%20Data%20Scientist&descAlignY=60&descSize=20" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:3b82f6&height=170&section=header&text=morimoli&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20Engineer%20and%20Data%20Scientist&descAlignY=60&descSize=20" width="100%" />
 
 <div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=680&lines=Web+Engineer+%26+Data+Scientist;AI+%C3%97+Python+%C3%97+TypeScript" alt="typing" />
@@ -19,7 +19,12 @@ Web Engineer & Data Scientist (self-styled). Recently focused on AI × Python ×
 ### Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,python,django,go,aws,gcp,docker,githubactions,vercel&theme=dark&perline=11" />
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,python,django,fastapi,go,aws,gcp,docker,githubactions,vercel&theme=dark&perline=12" />
+<p>
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" />
+</p>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0e75b6,100:3b82f6&height=3" width="100%" />
