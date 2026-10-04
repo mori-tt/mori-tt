@@ -19,12 +19,7 @@ Web Engineer & Data Scientist (self-styled). Recently focused on AI × Python ×
 ### Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,python,django,fastapi,go,aws,gcp,docker,githubactions,vercel&theme=dark&perline=12" />
-<p>
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" />
-</p>
+<img src="assets/tech-stack.svg" width="498" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0e75b6,100:3b82f6&height=3" width="100%" />
