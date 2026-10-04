@@ -50,7 +50,7 @@ jobs:
             for (const a of zennJson.articles || []) {
               articles.push({ likes: a.liked_count, title: a.title, url: `https://zenn.dev${a.path}`, src: 'Zenn' });
             }
-            const qiitaRes = await fetch('https://qiita.com/api/v2/users/t_mori/items?per_page=100');
+            const qiitaRes = await fetch('https://qiita.com/api/v2/users/morrrrr/items?per_page=100');
             if (qiitaRes.ok) {
               for (const a of await qiitaRes.json()) {
                 articles.push({ likes: a.likes_count, title: a.title, url: a.url, src: 'Qiita' });
@@ -58,9 +58,13 @@ jobs:
             }
             articles.sort((a, b) => b.likes - a.likes);
             if (articles.length) {
+              const badge = (src) =>
+                src === 'Zenn'
+                  ? 'https://img.shields.io/badge/-Zenn-3EA8FF?style=flat&logo=zenn&logoColor=white'
+                  : 'https://img.shields.io/badge/-Qiita-55C500?style=flat&logo=qiita&logoColor=white';
               const list = articles
                 .slice(0, 5)
-                .map(a => `- ❤️ ${a.likes} — [${a.title}](${a.url})`)
+                .map(a => `- ❤️ **${a.likes}** — [${a.title}](${a.url}) [![${a.src}](${badge(a.src)})](${a.url})`)
                 .join('\n');
               replaceBlock('ARTICLES', list);
             }
