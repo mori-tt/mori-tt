@@ -27,10 +27,7 @@ Web Engineer & Data Scientist (self-styled). Recently focused on AI × Python ×
 ### Stats
 
 <div align="center">
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mori-tt&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&rank_icon=github&show=reviews,prs_merged" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mori-tt&layout=compact&theme=github_dark&hide_border=true&langs_count=8&hide=html,css" />
-</p>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mori-tt&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&rank_icon=github&show=reviews,prs_merged" />
 <img src="https://streak-stats.demolab.com/?user=mori-tt&theme=github-dark-blue&hide_border=true" />
 <img src="https://github-profile-trophy.vercel.app/?username=mori-tt&theme=tokyonight&no-frame=true&no-bg=true&column=6" />
 </div>
