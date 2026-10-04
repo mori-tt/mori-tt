@@ -3,7 +3,6 @@ name: Profile Summary Cards
 on:
   schedule: [{ cron: "0 6 * * *" }] # 毎日 (UTC)
   workflow_dispatch:
-  push: { branches: [main] }
 
 permissions:
   contents: write

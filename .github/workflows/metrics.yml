@@ -3,7 +3,6 @@ name: Metrics
 on:
   schedule: [{ cron: "0 0 * * *" }] # 毎日 (UTC)
   workflow_dispatch:
-  push: { branches: [main] }
 
 permissions:
   contents: write
