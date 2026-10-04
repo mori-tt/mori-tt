@@ -6,8 +6,8 @@ Software Engineer — TypeScript / Next.js / Python
 
 Web アプリと AI ツールを個人開発しています。最近は生成 AI × Next.js が中心。
 
-**Links**: [X (@morimoli_777)](https://x.com/morimoli_777)
-<!-- Portfolio / Zenn / Qiita などがあればここに追加 -->
+**Links**: [LinkedIn](https://www.linkedin.com/in/takahiro-mori-553978435) · [Zenn](https://zenn.dev/mmmot) · [X (@morimoli_777)](https://x.com/morimoli_777)
+<!-- Portfolio / Qiita などがあればここに追加 -->
 
 ---
 
@@ -30,9 +30,12 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 ### Selected Work
 
 - **[reel-maker](https://github.com/mori-tt/reel-maker)** — 写真からショート動画を生成するブラウザ完結アプリ。Instagram Reels / TikTok / YouTube Shorts 対応、AI キャプション提案付き
-- **[dr-chihara](https://github.com/mori-tt/dr-chihara)** — 日・英・中トリリンガルの医師個人サイト。SEO 設計済み Next.js 静的サイト ([公開中](https://mori-tt.github.io/dr-chihara/))
-- **[regenerative-medicine](https://github.com/mori-tt/regenerative-medicine)** — 再生医療ポータル。251 記事・検索・多言語対応の Next.js サイト
-- **[ai_stock_prediction](https://github.com/mori-tt/ai_stock_prediction)** — 「AI で株価を予測しよう」講座教材 (Google Colab / Jupyter)
+- **[bookshelf_express](https://github.com/mori-tt/bookshelf_express)** — Express + TypeScript の書籍管理アプリ
+- **[hono_tutorial](https://github.com/mori-tt/hono_tutorial)** — Hono チュートリアル (軽量 Web フレームワーク)
+- **[example-app](https://github.com/mori-tt/example-app)** — Laravel サンプルアプリ
+- **[next-sample](https://github.com/mori-tt/next-sample)** — Next.js 学習用サンプル
+- **[next-todo](https://github.com/mori-tt/next-todo)** — Next.js 製 Todo アプリ
+- **[react_form](https://github.com/mori-tt/react_form)** — React フォーム実装の練習
 
 ### Activity
 
