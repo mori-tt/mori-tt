@@ -29,7 +29,6 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 
 ### Selected Work
 
-- **[reel-maker](https://github.com/mori-tt/reel-maker)** — 写真からショート動画を生成するブラウザ完結アプリ。Instagram Reels / TikTok / YouTube Shorts 対応、AI キャプション提案付き
 - **[bookshelf_express](https://github.com/mori-tt/bookshelf_express)** — Express + TypeScript の書籍管理アプリ
 - **[hono_tutorial](https://github.com/mori-tt/hono_tutorial)** — Hono チュートリアル (軽量 Web フレームワーク)
 - **[example-app](https://github.com/mori-tt/example-app)** — Laravel サンプルアプリ
