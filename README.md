@@ -27,9 +27,8 @@ Web Engineer & Data Scientist (self-styled). Recently focused on AI × Python ×
 ### Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mori-tt&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&rank_icon=github&show=reviews,prs_merged" />
-<img src="https://streak-stats.demolab.com/?user=mori-tt&theme=github-dark-blue&hide_border=true" />
-<img src="https://github-profile-trophy.vercel.app/?username=mori-tt&theme=tokyonight&no-frame=true&no-bg=true&column=6" />
+<img src="https://streak-stats.demolab.com/?user=mori-tt&theme=default&hide_border=true" />
+<img src="https://github-profile-trophy.vercel.app/?username=mori-tt&theme=flat&no-frame=true&no-bg=true&column=6" />
 </div>
 
 <!-- Auto-generated once the METRICS_TOKEN secret is set -->
@@ -41,8 +40,8 @@ Web Engineer & Data Scientist (self-styled). Recently focused on AI × Python ×
 
 <div align="center">
 <p>
-  <img height="190" src="profile-summary-card-output/github_dark/1-repos-per-language.svg" />
-  <img height="190" src="profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+  <img height="190" src="profile-summary-card-output/default/1-repos-per-language.svg" />
+  <img height="190" src="profile-summary-card-output/default/2-most-commit-language.svg" />
 </p>
 </div>
 
@@ -56,11 +55,11 @@ Web Engineer & Data Scientist (self-styled). Recently focused on AI × Python ×
 <img src="https://ghchart.rshah.org/40c463/mori-tt" alt="contributions (last 1 year)" />
 
 <!-- 3D contribution graph (regenerated daily by 3d-contrib.yml) -->
-<img src="profile-3d-contrib/profile-night-rainbow.svg" />
+<img src="profile-3d-contrib/profile-season-animate.svg" />
 
-<img src="profile-summary-card-output/github_dark/0-profile-details.svg" />
+<img src="profile-summary-card-output/default/0-profile-details.svg" />
 
-<img height="190" src="profile-summary-card-output/github_dark/4-productive-time.svg" />
+<img height="190" src="profile-summary-card-output/default/4-productive-time.svg" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0e75b6,100:3b82f6&height=3" width="100%" />
