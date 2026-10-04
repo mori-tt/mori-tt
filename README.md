@@ -29,12 +29,11 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 
 ### Selected Work
 
-- **[bookshelf_express](https://github.com/mori-tt/bookshelf_express)** — Express + TypeScript の書籍管理アプリ
-- **[hono_tutorial](https://github.com/mori-tt/hono_tutorial)** — Hono チュートリアル (軽量 Web フレームワーク)
-- **[example-app](https://github.com/mori-tt/example-app)** — Laravel サンプルアプリ
-- **[next-sample](https://github.com/mori-tt/next-sample)** — Next.js 学習用サンプル
-- **[next-todo](https://github.com/mori-tt/next-todo)** — Next.js 製 Todo アプリ
-- **[react_form](https://github.com/mori-tt/react_form)** — React フォーム実装の練習
+- **[reel-maker](https://github.com/mori-tt/reel-maker)** — 写真からショート動画を生成するブラウザ完結アプリ。Instagram Reels / TikTok / YouTube Shorts 対応、AI キャプション提案付き
+- **[accommodation-app](https://github.com/mori-tt/accommodation-app)** — Next.js 製の宿泊予約アプリ
+- **[mindmap-app](https://github.com/mori-tt/mindmap-app)** — React + Vite のマインドマップアプリ
+- **[pokemon-omikuji2](https://github.com/mori-tt/pokemon-omikuji2)** — Next.js 製ポケモンおみくじアプリ
+- **[jamstack-blog](https://github.com/mori-tt/jamstack-blog)** — Next.js 製 Jamstack ブログ
 
 ### Activity
 
