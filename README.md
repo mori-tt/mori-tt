@@ -37,7 +37,5 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 
 ### Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mori-tt/mori-tt/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/mori-tt/mori-tt/output/github-contribution-grid-snake.svg" alt="snake" />
-</picture>
+<!-- 過去1年分のコントリビューションカレンダー -->
+<img src="https://ghchart.rshah.org/40c463/mori-tt" alt="mori-tt's GitHub contributions (last 1 year)" />
