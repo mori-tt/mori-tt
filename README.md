@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:3b82f6&height=170&section=header&text=T_Mori&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer&descAlignY=60&descSize=20" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:3b82f6&height=170&section=header&text=morimoli&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer&descAlignY=60&descSize=20" width="100%" />
 
 <div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=640&lines=TypeScript+%2F+Next.js+%2F+Python;Web+apps+%2B+AI+tools+%2F+%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA" alt="typing" />
@@ -58,10 +58,20 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 
 ### Selected Work
 
+<!-- ピン留めリポジトリと自動同期されます (sync-content.yml)。ピン留めを変えるとこのリストも変わります -->
+<!-- PINS:START -->
 - **[reel-maker](https://github.com/mori-tt/reel-maker)** — 写真からショート動画を生成するブラウザ完結アプリ。Instagram Reels / TikTok / YouTube Shorts 対応、AI キャプション提案付き
 - **[accommodation-app](https://github.com/mori-tt/accommodation-app)** — Next.js 製の宿泊予約アプリ
 - **[mindmap-app](https://github.com/mori-tt/mindmap-app)** — React + Vite のマインドマップアプリ
 - **[pokemon-omikuji2](https://github.com/mori-tt/pokemon-omikuji2)** — Next.js 製ポケモンおみくじアプリ
 - **[jamstack-blog](https://github.com/mori-tt/jamstack-blog)** — Next.js 製 Jamstack ブログ
+<!-- PINS:END -->
+
+### Articles
+
+<!-- Zenn/Qiita の記事をいいね順で自動更新します (sync-content.yml) -->
+<!-- ARTICLES:START -->
+- ❤️ 26 — [金融取引分析エージェント(AIとデータサイエンス)- Python & Google ADKで金融取引戦略を生成](https://zenn.dev/mmmot/articles/560829d90036dc)
+<!-- ARTICLES:END -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:0e75b6&height=110&section=footer" width="100%" />

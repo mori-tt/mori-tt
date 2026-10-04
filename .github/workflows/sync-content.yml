@@ -1,0 +1,74 @@
+name: Sync Content
+
+on:
+  schedule: [{ cron: "0 12 * * *" }] # 毎日 (UTC)
+  workflow_dispatch:
+  push: { branches: [main] }
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update pinned repos & articles sections
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let readme = fs.readFileSync('README.md', 'utf8');
+            const replaceBlock = (marker, content) => {
+              const re = new RegExp(`<!-- ${marker}:START -->[\\s\\S]*?<!-- ${marker}:END -->`);
+              readme = readme.replace(re, `<!-- ${marker}:START -->\n${content}\n<!-- ${marker}:END -->`);
+            };
+
+            // 1. ピン留めリポジトリ → Selected Work
+            const query = `{
+              user(login: "mori-tt") {
+                pinnedItems(first: 6, types: REPOSITORY) {
+                  nodes { ... on Repository { name description } }
+                }
+              }
+            }`;
+            const data = await github.graphql(query);
+            const pins = data.user.pinnedItems.nodes;
+            if (pins.length) {
+              const list = pins
+                .map(r => `- **[${r.name}](https://github.com/mori-tt/${r.name})**${r.description ? ' — ' + r.description : ''}`)
+                .join('\n');
+              replaceBlock('PINS', list);
+            } else {
+              console.log('No pinned items; keeping manual list.');
+            }
+
+            // 2. Zenn / Qiita 記事 (いいね順)
+            const articles = [];
+            const zennRes = await fetch('https://zenn.dev/api/articles?username=mmmot');
+            const zennJson = await zennRes.json();
+            for (const a of zennJson.articles || []) {
+              articles.push({ likes: a.liked_count, title: a.title, url: `https://zenn.dev${a.path}`, src: 'Zenn' });
+            }
+            const qiitaRes = await fetch('https://qiita.com/api/v2/users/t_mori/items?per_page=100');
+            if (qiitaRes.ok) {
+              for (const a of await qiitaRes.json()) {
+                articles.push({ likes: a.likes_count, title: a.title, url: a.url, src: 'Qiita' });
+              }
+            }
+            articles.sort((a, b) => b.likes - a.likes);
+            if (articles.length) {
+              const list = articles
+                .slice(0, 5)
+                .map(a => `- ❤️ ${a.likes} — [${a.title}](${a.url})`)
+                .join('\n');
+              replaceBlock('ARTICLES', list);
+            }
+
+            fs.writeFileSync('README.md', readme);
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Sync pinned repos and articles [skip ci]"
