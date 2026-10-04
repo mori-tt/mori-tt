@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:3b82f6&height=170&section=header&text=morimoli&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer&descAlignY=60&descSize=20" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:3b82f6&height=170&section=header&text=morimoli&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20Engineer%20%26%20Data%20Scientist&descAlignY=60&descSize=20" width="100%" />
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=640&lines=TypeScript+%2F+Next.js+%2F+Python;Web+apps+%2B+AI+tools+%2F+%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=680&lines=Web+Engineer+%26+Data+Scientist;AI+%C3%97+Python+%C3%97+TypeScript" alt="typing" />
 
 <p>
   <a href="https://www.linkedin.com/in/takahiro-mori-553978435"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -12,14 +12,14 @@
 </p>
 </div>
 
-Web アプリと AI ツールを個人開発しています。最近は生成 AI × Next.js が中心。
+Web Engineer & Data Scientist (self-styled). Recently focused on AI × Python × TypeScript.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0e75b6,100:3b82f6&height=3" width="100%" />
 
 ### Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,python,django,go,docker,githubactions,vercel&theme=dark" />
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,python,django,go,aws,gcp,docker,githubactions,vercel&theme=dark&perline=11" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0e75b6,100:3b82f6&height=3" width="100%" />
@@ -35,7 +35,7 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 <img src="https://github-profile-trophy.vercel.app/?username=mori-tt&theme=tokyonight&no-frame=true&no-bg=true&column=6" />
 </div>
 
-<!-- METRICS_TOKEN シークレット設定後に自動生成されます -->
+<!-- Auto-generated once the METRICS_TOKEN secret is set -->
 <!-- <img src="https://raw.githubusercontent.com/mori-tt/mori-tt/main/github-metrics.svg" alt="metrics" /> -->
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0e75b6,100:3b82f6&height=3" width="100%" />
@@ -55,10 +55,10 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 
 <div align="center">
 
-<!-- 過去1年分のコントリビューションカレンダー -->
+<!-- Contribution calendar for the past year -->
 <img src="https://ghchart.rshah.org/40c463/mori-tt" alt="contributions (last 1 year)" />
 
-<!-- 3Dコントリビューション (3d-contrib.yml で毎日自動生成) -->
+<!-- 3D contribution graph (regenerated daily by 3d-contrib.yml) -->
 <img src="profile-3d-contrib/profile-night-rainbow.svg" />
 
 <img src="profile-summary-card-output/github_dark/0-profile-details.svg" />
@@ -70,7 +70,7 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 
 ### Selected Work
 
-<!-- ピン留めリポジトリと自動同期されます (sync-content.yml)。ピン留めを変えるとこのリストも変わります -->
+<!-- Auto-synced with pinned repositories (sync-content.yml). Change your pins and this list follows. -->
 <!-- PINS:START -->
 - **[accommodation-app](https://github.com/mori-tt/accommodation-app)**
 - **[notion_clone](https://github.com/mori-tt/notion_clone)**
@@ -84,7 +84,7 @@ Web アプリと AI ツールを個人開発しています。最近は生成 AI
 
 ### Articles
 
-<!-- Zenn/Qiita の記事をいいね順で自動更新します (sync-content.yml) -->
+<!-- Top Zenn/Qiita articles by likes, auto-updated daily (sync-content.yml) -->
 <!-- ARTICLES:START -->
 - ❤️ **26** — [金融取引分析エージェント(AIとデータサイエンス)- Python & Google ADKで金融取引戦略を生成](https://zenn.dev/mmmot/articles/560829d90036dc) [![Zenn](https://img.shields.io/badge/-Zenn-3EA8FF?style=flat&logo=zenn&logoColor=white)](https://zenn.dev/mmmot/articles/560829d90036dc)
 - ❤️ **17** — [Tailwind CSS まとめ](https://qiita.com/morrrrr/items/d0dfa70ede3165d01b36) [![Qiita](https://img.shields.io/badge/-Qiita-55C500?style=flat&logo=qiita&logoColor=white)](https://qiita.com/morrrrr/items/d0dfa70ede3165d01b36)
